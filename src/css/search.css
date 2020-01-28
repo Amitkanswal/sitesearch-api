@@ -1,0 +1,31 @@
+.result-container{
+    width: 90%;
+    height: auto;
+    max-height: 200px;
+    border: solid 1px black;
+    overflow-y: scroll;
+    z-index: 0;
+}
+.result-list{
+    list-style: none;
+    border-bottom: 1px dotted black;
+    
+}
+.result-list-link{
+    text-decoration: none;
+    color: black;
+    opacity: 0.9;
+    transition: top 0.3s;
+}
+.result-list-link:hover{
+    color:blue;
+}
+
+.search-input-filed{
+    width: 90%;
+}
+.search-div{
+    position: relative;
+    border-block-end: 20px;
+    
+}
